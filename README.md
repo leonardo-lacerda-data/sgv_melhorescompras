@@ -1,4 +1,4 @@
-# projetosgv_melhorescompras
+# sgv_melhorescompras
 
-STUDY CASE: VDMS (VIDEO MANAGEMENT SYSTEM)
+VIDEO MANAGEMENT SYSTEM in Oracle for a e-commerce fictional company
 
