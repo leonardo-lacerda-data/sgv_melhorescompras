@@ -1,4 +1,4 @@
 # sgv_melhorescompras
 
-VIDEO MANAGEMENT SYSTEM in Oracle for a e-commerce fictional company
+VIDEO MANAGEMENT SYSTEM in Oracle for an e-commerce fictional company
 
