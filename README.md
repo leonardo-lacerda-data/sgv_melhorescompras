@@ -1,4 +1,4 @@
-# projetosgv_melhorescomprasfiap
+# projetosgv_melhorescompras
 
 STUDY CASE: VDMS (VIDEO MANAGEMENT SYSTEM)
 
