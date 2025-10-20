@@ -2,8 +2,8 @@
 <h1 align="center">🛒 SGV_MelhoresCompras</h1>
 
 <p align="center">
-  <b>Sistema de Gestão de Vendas e Compras</b><br>
-  Projeto acadêmico desenvolvido para demonstrar habilidades em modelagem, SQL e administração de banco de dados Oracle.
+  <b>Sistema de Gerenciamento de Vídeos</b><br>
+  Projeto acadêmico focado em experiência do usuário ao consumir vídeos dos produtos na plataforma Melhores Compras
 </p>
 
 <!-- BADGES -->
@@ -26,10 +26,8 @@
 
 ## 📘 Sobre o Projeto
 
-O **SGV_MelhoresCompras** é um sistema relacional desenvolvido para **gerenciar o fluxo de compras, clientes e produtos** de um e-commerce.  
+O **SGV_MelhoresCompras** é um sistema relacional para **gerenciamento de vídeos, produtos e categorias** de um e-commerce.  
 O objetivo do projeto é demonstrar conhecimentos em **modelagem de dados, SQL avançado, PL/SQL e administração de banco Oracle**.
-
-> 🔗 Projeto criado como portfólio pessoal de estudos em **Banco de Dados** e **Engenharia de Dados**.
 
 ---
 
@@ -41,29 +39,19 @@ O objetivo do projeto é demonstrar conhecimentos em **modelagem de dados, SQL a
 - **ItensCompra** — ligação entre produtos e pedidos  
 - **SAC** — atendimento e relacionamento com o cliente  
 
-📄 O diagrama físico (ERD) está disponível em:  
-[SGV_Melhores_Compras_Projeto_Fisico](SGV_Melhores_Compras_Projeto_Fisico.pdf)
-[SGV_Melhores_Compras_Projeto_Fisico.pdf](https://github.com/user-attachments/files/23003969/SGV_Melhores_Compras_Projeto_Fisico.pdf)
-
 ---
 
-## 🧠 Principais Recursos
+## ⚙️ Estrutura do projeto
 
-- Scripts completos de criação (`mc_create.sql`) e inserção (`mc_insertdata.sql`)  
-- Triggers e procedures PL/SQL para automação de processos  
-- Consultas SQL complexas (`Consultas_DQL.sql`) para relatórios e análises  
-- Script Python de integração com SAC (`atendimento_SAC_Melhores_Compras.py`)  
-- Estrutura documentada e modular (scripts independentes)  
-
----
-
-## ⚙️ Tecnologias Utilizadas
-
-| Tecnologia | Função |
+| Estrutura | Descrição |
 |-------------|---------|
-| **Oracle Database 19c** | Armazenamento e gerenciamento dos dados |
-| **SQL / PL-SQL** | Criação e manipulação do banco |
-| **Python** | Automação e integração SAC |
+| **[SGV_Melhores_Compras_Projeto_Fisico](SGV_Melhores_Compras_Projeto_Fisico.pdf)** | Modelo de dados físico feito na ferramenta CASE Oracle Data Modeler e contém as Tabelas, Colunas e Relacionamentos físicos criados  para atender ao projeto SGV |
+| **[mc_create.sql](mc_create.sql)** | Script contendo a criação das tabelas, colunas e relacionamentos do projeto SGV, bem como as tabelas corporativas MC (Melhores  Compras)|
+| **[mc_inserdata.sql](mc_insertdata.sql)** | População dos dados nas tabelas |
+| **[mc_inserdata.sql](mc_insertdata.sql)** | População dos dados nas tabelas |
+| **[drop_tables.sql](drop_tables.sql)** | Script contendo o drop das tabelas (eliminação física) e sequences corporativas MC  (Melhores Compras) e do projeto SGV | 
+| **[Consultas_DQL.sql](Consultas_DQL.sql)** | Script contendo as consultas no banco de dados| 
+| **[Python](atendimento_SAC_Melhores_Compras.py)** | Integração SAC para o nível de satisfação do cliente |
 | **Git / GitHub** | Versionamento de código |
 
 ---
