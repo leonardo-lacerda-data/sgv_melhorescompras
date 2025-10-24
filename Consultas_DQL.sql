@@ -1,8 +1,7 @@
-/*a) Crie uma consulta SQL por meio do comando SELECT que exiba informações das categorias de produto e
-respectivos produtos de cada categoria. Exiba as seguintes informações: código e nome da categoria,
+/*Consulta que exibe categoria de produto e respectivos produtos de cada categoria. Exibindo: código e nome da categoria,
 código e descrição do produto, valor unitário, tipo de embalagem e percentual do lucro de cada produto.
-Caso exista alguma categoria sem produto, você deve exibir a categoria e deixar os dados do produto em branco.
-Classifique a consulta por ordem de nome de categoria e nome de produto, ambos de forma ascendente.*/
+Exibir a categoria também caso exista alguma categoria sem produto.
+Classificando em ordem de nome de categoria e nome de produto, ambos de forma ascendente.*/
 
 SELECT
     MC_CATEGORIA_PROD.CD_CATEGORIA,
@@ -20,8 +19,8 @@ ORDER BY
 DS_CATEGORIA ASC,
 DS_PRODUTO ASC;
 
-/*b)    Crie uma instrução SQL que exiba os dados dos clientes pessoas físicas.
-Exiba as seguintes informações: código e nome do cliente, e-mail, telefone, login,
+/*Consulta para exibir os dados dos clientes pessoas físicas.
+Com código, nome do cliente, e-mail, telefone, login,
 data de nascimento no formato dia-mes-ano (com 4 digitos), dia da semana da data de nascimento,
 anos de vida, sexo biológico e CPF.*/
 
@@ -47,9 +46,9 @@ ON
 WHERE 
     F.NR_CPF IS NOT NULL;
     
-/*c) Exiba as seguintes informações da tabela de visualização dos vídeos dos produtos:
+/*Consulta junção de tabelas visualização e produtos exibindo
 código do produto, nome do produto, data e hora de visualização do produto.
-Exiba essas informações classificadas pela data e hora mais recente.*/
+Classificando pela data e hora mais recente.*/
 
 SELECT
     V.CD_PRODUTO,
@@ -67,3 +66,4 @@ ORDER BY V.DT_VISUALIZACAO DESC,
 V.NR_HORA_VISUALIZACAO DESC;
 
 COMMIT;
+
